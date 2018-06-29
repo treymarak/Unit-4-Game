@@ -52,9 +52,59 @@ h1{
 .line{
 
     background-color: darkgreen;
+    text-align: center;
     color: white;
     width: 200px;
-    height: 25px;
+    height: 50px;
     position: fixed;
-    bottom: 65px;
+    bottom: 40px;
+}
+
+.score{
+
+    background-color:darkgreen;
+    width: 100px;
+    height: 75px;
+    position: fixed;
+    left: 275px;
+    bottom: 40px;
+
+}
+
+.crystalImage{
+
+    height: 150px;
+
+}
+
+#one{
+
+    position: fixed;
+    top: 100px;
+    right: 500px;
+    
+}
+
+#two{
+
+    position: fixed;
+    top: 100px;
+    right: 300px;
+    
+}
+
+#three{
+
+    position: fixed;
+    top: 300px;
+    right: 515px;
+    
+}
+
+#four{
+
+    position: fixed;
+    top: 300px;
+    right: 300px;
+    
 }
