@@ -17,8 +17,8 @@ var userTotal = 0;
 var wins = 0;
 var losses = 0;
 
-$(".total").text("Wins: " + wins);
-$(".total").text("Losses: " + losses);
+$("#total").text("Wins: " + wins);
+$("#total").text("Losses: " + losses);
 
 //funtion to reset the game when user wins or loses
 function reset(){
@@ -39,19 +39,19 @@ function reset(){
 
 function winner() {
 
-    $(".total").text("You Win!");
+    $("#total").text("You Win!");
 
     wins++;
-    $(".total").text("Wins: " + wins);
+    $("#total").text("Wins: " + wins);
    reset()
 }
 
 function loser() {
 
-    $(".total").text("You Lose!");
+    $("#total").text("You Lose!");
 
     losses++;
-    $(".total").text("Losses: " + losses);
+    $("#total").text("Losses: " + losses);
    reset()
 }
 
