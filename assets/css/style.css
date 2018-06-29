@@ -32,42 +32,47 @@ h1{
 .computer{
 
     background-color: lightgreen;
+    text-align: center;
+    font-size: 36px;
     width: 250px;
-    height: 115px;
+    height: 100px;
     position: fixed;
-    bottom: 125px;
+    bottom: 100px;
 }
 
 .total{
 
     background-color: aqua;
+    text-align: left;
     width: 100px;
     height: 115px;
     position: fixed;
     left: 275px;
-    bottom: 125px;
+    bottom: 90px;
 
 }
 
 .line{
 
-    background-color: darkgreen;
+    background-color: forestgreen;
     text-align: center;
     color: white;
     width: 200px;
     height: 50px;
     position: fixed;
-    bottom: 40px;
+    bottom: 20px;
 }
 
 .score{
 
-    background-color:darkgreen;
+    background-color: forestgreen;
+    text-align: center;
+    font-size: 36px;
     width: 100px;
     height: 75px;
     position: fixed;
     left: 275px;
-    bottom: 40px;
+    bottom: 5px;
 
 }
 
