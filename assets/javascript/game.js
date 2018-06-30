@@ -16,9 +16,11 @@ var gem4 = Math.floor(Math.random()*11+1);
 var userTotal = 0;
 var wins = 0;
 var losses = 0;
+var message = {correct: "You Win!", wrong: "You Lose!"};
 
-$("#total").text("Wins: " + wins);
-$("#total").text("Losses: " + losses);
+
+$("#totalWin").text("Wins: " + wins);
+$("#totalLosses").text("Losses: " + losses);
 
 //funtion to reset the game when user wins or loses
 function reset(){
@@ -35,23 +37,24 @@ function reset(){
     userTotal = 0;
 
     $(".score").text(userTotal);
+
 }
 
 function winner() {
 
-    $("#total").text("You Win!");
+    $("#alert").text(message.correct);
 
     wins++;
-    $("#total").text("Wins: " + wins);
+    $("#totalWin").text("Wins: " + wins);
    reset()
 }
 
 function loser() {
 
-    $("#total").text("You Lose!");
+    $("#alert").text(message.wrong);
 
     losses++;
-    $("#total").text("Losses: " + losses);
+    $("#totalLosses").text("Losses: " + losses);
    reset()
 }
 
